@@ -87,7 +87,7 @@ const CareerCoach = () => {
                   </ul>
                   <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
                     <a href="/mentor/browse/">
-                      <button type="submit" className="teal-btn" href="/mentor/browse/">Find my mentor
+                      <button type="submit" className="teal-btn bg-[#118577] text-white p-3 rounded-md" href="/mentor/browse/">Find my mentor
                       </button>
                     </a><a className="flex justify-center w-full md:w-auto text-sm text-white underline font-semibold hover:text-mc-green" href="/mentor/">Become a Mentor</a>
                   </div>

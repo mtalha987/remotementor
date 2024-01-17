@@ -3,13 +3,13 @@ import React from 'react'
 const LearnNewSkill = () => {
   return (
     <>
-    <div className="relative text-navy-900 z-0" id="info">
+    <div className="relative text-navy-900 z-0 bg-white" id="info">
             <div className="hidden lg:block">
               <img src="https://cdn.mentorcruise.com/img/home/shapes/green_triangle.svg" className="absolute" style={{top: '125px', right: '225px', height: '100px'}} />
               <img src="https://cdn.mentorcruise.com/img/home/shapes/orange_triangle.svg" className="absolute" style={{top: '200px', left: '225px', height: '50px'}} />
               <img src="https://cdn.mentorcruise.com/img/home/shapes/orange_triangle.svg" className="absolute" style={{top: '1300px', right: '200px', height: '100px'}} />
             </div>
-            <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+            <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24 bg-white">
               <div className="space-y-12">
                 <div className="mx-auto bg-white z-50 space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
                   <h2 className="relative text-3xl lg:text-center mx-auto max-w-2xl font-bold tracking-tight sm:text-4xl">
@@ -153,7 +153,7 @@ const LearnNewSkill = () => {
                 </ul>
                 <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
                   <a href="/mentor/browse/">
-                    <button type="submit" className="blue-btn" href="/mentor/browse/">Find my mentor
+                    <button type="submit" className="blue-btn bg-[#1C3D7A] text-white p-3 rounded-md" href="/mentor/browse/">Find my mentor
                     </button>
                   </a><a className="flex justify-center w-full md:w-auto text-sm underline font-semibold text-navy-900 hover:text-mc-green" href="/mentor/">Become a Mentor</a>
                 </div>
@@ -335,15 +335,15 @@ const LearnNewSkill = () => {
                 </div>
                 <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
                   <a href="/mentor/browse/">
-                    <button type="submit" className="blue-btn" href="/mentor/browse/">Find my mentor
+                    <button type="submit" className="blue-btn bg-[#1C3D7A] text-white p-3 rounded-md" href="/mentor/browse/">Find my mentor
                     </button>
                   </a><a className="flex justify-center w-full md:w-auto text-sm text-navy-900 underline font-medium hover:text-mc-shade-dark" href="/mentor/">Become a Mentor</a>
                 </div>
               </div>
             </div>
           </div>
-          <div id="sessions-component">
-            <div className="bg-navy-900 text-navy-900">
+          <div id="sessions-component" className='bg-[#172E59]'>
+            <div className="bg-navy-900 text-navy-900 bg-[#172E59]">
               <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
                 <div className="space-y-12">
                   <div className="mx-auto space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -453,8 +453,8 @@ const LearnNewSkill = () => {
                         </div>
                       </div>
                     </li></ul>
-                  <div className="md:flex md:justify-center md:items-center">
-                    <a className="teal-btn" href="/sessions/">Show me more
+                  <div className="md:flex md:justify-center md:items-center ">
+                    <a className="teal-btn bg-[#118577] text-white p-3 rounded-md" href="/sessions/">Show me more
                     </a>
                   </div>
                 </div>
@@ -462,10 +462,10 @@ const LearnNewSkill = () => {
             </div>
           </div>
           <div id="testimonials-b">
-            <div className="bg-navy-900 px-4 py-12 lg:py-24">
+            <div className="bg-navy-900 px-4 py-12 lg:py-24 bg-[#172E59]">
               <div className="grid grid-cols-1 sm:grid-cols-3 max-w-screen-xl mx-auto">
                 <div>
-                  <div className="mx-auto space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none text-white">
+                  <div className="mx-auto mb-8 space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none text-white">
                     <h2 className="text-2xl text-white mx-auto max-w-2xl font-bold tracking-tight sm:text-3xl">Still
                       not
                       convinced?<br /> Don’t just take our word for it</h2>
@@ -473,7 +473,7 @@ const LearnNewSkill = () => {
                       1-on-1 mentorship to thousands of students, professionals, managers and executives. Even
                       better, they’ve left an average rating of 4.9 out of 5 for our mentors.</p>
                   </div>
-                  <a className="teal-btn mt-8 mb-8" href="/mentor/browse/">Find a mentor</a>
+                  <a className="teal-btn mt-8 mb-8 bg-[#118577] text-white p-3 rounded-md" href="/mentor/browse/">Find a mentor</a>
                 </div>
                 <div className="col-span-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
                   <div className="space-y-12">

@@ -6,7 +6,7 @@ const Companies = () => {
     <div className="bg-white py-24">
               <div className="mx-auto max-w-screen-lg px-6 lg:px-8">
                 <div className="lg:grid grid-cols-3 gap-x-8">
-                  <h2 className="lg:max-w-sm mb-6 lg:mb-0 text-center text-xl font-bold tracking-tight text-black lg:max-w-xl lg:text-left">
+                  <h2 className=" mb-6 lg:mb-0 text-center text-xl font-bold tracking-tight text-black lg:max-w-xl lg:text-left">
                     Over 5,000 skills, topics and companies to learn about
                   </h2>
                   <div className="mt-8 col-span-2 flow-root self-center lg:mt-0">
