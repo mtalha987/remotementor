@@ -1,6 +1,7 @@
 // components/Navbar.js
 
 import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -10,9 +11,9 @@ const Navbar = () => {
                   <nav className="flex lg:justify-center lg:py-3">
                     <div className="flex justify-between items-center w-full lg:w-11/12 lg:px-8 2xl:max-w-6xl">
                       <div className="z-20 p-2">
-                        <a href="/">
+                        <Link href="/">
                           <img className="p-0.5 h-24 w-24" src="/images/logo.png" alt="MentorCruise Logo Turquoise" />
-                        </a>
+                        </Link>
                       </div>
                       <div>
                         <button id="iconb" title="Navbar Menu Icon" className="border-0 mr-2 bg-blue-500 opacity-50 lg:hidden">
@@ -29,9 +30,9 @@ const Navbar = () => {
                       </div>
                       <div className="hidden lg:flex items-center space-x-4 py-4" id="desktop-menu">
                         <div id="findamentorb" className="relative">
-                          <a href="/mentor/browse/" className="text-mc-shade-darkest text-sm font-bold pt-2 pb-8 pr-10">
+                          <Link href="/mentor/browse/" className="text-mc-shade-darkest text-sm font-bold pt-2 pb-8 pr-10">
                             <span className="angle-down">Find a Mentor</span>
-                          </a>
+                          </Link>
                           <div id="findamentor-modalb" className="absolute -left-8 bg-white z-10 w-max flex-col h-auto font-semibold rounded-lg mt-7 pl-4 shadow-lg hidden">
                             <div className="flex space-x-8">
                               <div className="p-4">
@@ -242,19 +243,19 @@ const Navbar = () => {
                           </div>
                         </div>
                         <div className="ml-6 text-mc-blue z-20">
-                          <a className="text-mc-shade-darkest text-sm font-bold" href="/auth/login/" title="Login">
+                          <Link className="text-mc-shade-darkest text-sm font-bold" href="/auth/login" title="Login">
                             Login
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div id="menub" className="z-20 absolute top-16 bg-gray-200 w-full shadow-lg hidden">
                       <ul>
-                        <a href="/mentor/browse/">
+                        <Link href="/mentor/browse/">
                           <li className="p-5 w-full border-gray-300 border-solid border-0 border-b-2">
                             <span className="text-mc-shade-darkest text-sm font-bold">Find a Mentor</span>
                           </li>
-                        </a>
+                        </Link>
                         <li id="businesses-mobileb" className="p-5 w-full border-gray-300 border-solid border-0 border-b-2">
                           <span className="text-mc-shade-darkest text-sm font-bold">For Businesses</span>
                           <div id="businesses-mobile-modalb" className="flex-col font-bold mt-4 rounded-lg drop-shadow-lg hidden">
@@ -270,15 +271,15 @@ const Navbar = () => {
                           </div>
                         </li>
                         <li className="flex p-5 border-gray-300 border-solid border-0 border-b-2">
-                          <a className="bg-green-100 w-full text-center text-green-600 py-3 px-7 rounded-md font-semibold" href="/mentor/browse/" title="Find a mentor">
+                          <a className="bg-green-100 w-full text-center text-green-600 py-3 px-7 rounded-md font-semibold" href="/mentor/apply/" title="Find a mentor">
                             Get Started
                           </a>
                         </li>
-                        <a href="/auth/login/" title="Login">
+                        <Link href="/auth/login/" title="Login">
                           <li className="p-5 w-full border-gray-300 border-solid border-0 border-b-2">
                             <span className="text-mc-shade-darkest text-sm font-bold">Login</span>
                           </li>
-                        </a>
+                        </Link>
                       </ul>
                     </div>
                   </nav>
