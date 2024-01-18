@@ -66,6 +66,8 @@ const Hero = () => {
             </form>
           </div>
         </div>
+        
+        {/* static data */}
         <div className="relative flex overflow-x-hidden">
           <div className="py-12 animate-marquee whitespace-nowrap">
             {mentors.map((mentor, index) => (

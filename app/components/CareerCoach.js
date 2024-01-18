@@ -29,7 +29,7 @@ const CareerCoach = () => {
                                 <h3 className="font-bold text-2xl w-auto h-auto">Find Your Mentor</h3>
                               </div>
                               <div className="flex justify-center px-10 py-4">
-                                <img src="https://cdn.mentorcruise.com/img/home/icons/mc-logo.svg" alt="MentorCruise" />
+                                <img src="http://bit.ly/3vCWrIK" alt="MentorCruise" />
                               </div>
                               <div>
                                 <p className="my-4 text-base text-center">Explore our growing catalogue
@@ -50,7 +50,7 @@ const CareerCoach = () => {
                                 </h3>
                               </div>
                               <div className="flex justify-center px-10 py-4">
-                                <img src="https://cdn.mentorcruise.com/img/home/icons/mc-edit.svg" alt="MentorCruise" />
+                                <img src="http://bit.ly/47AatrO" alt="MentorCruise" />
                               </div>
                               <div>
                                 <p className="my-4 text-base text-center">Fill in an application, and if
@@ -72,7 +72,7 @@ const CareerCoach = () => {
                                 </h3>
                               </div>
                               <div className="flex justify-center px-10 py-4">
-                                <img src="https://cdn.mentorcruise.com/img/home/icons/mc-rocket.svg" alt="MentorCruise" />
+                                <img src="http://bit.ly/48DtP0i" alt="MentorCruise" />
                               </div>
                               <div>
                                 <p className="my-4 text-base text-center">From personal chats to

@@ -5,9 +5,9 @@ const LearnNewSkill = () => {
     <>
     <div className="relative text-navy-900 z-0 bg-white" id="info">
             <div className="hidden lg:block">
-              <img src="https://cdn.mentorcruise.com/img/home/shapes/green_triangle.svg" className="absolute" style={{top: '125px', right: '225px', height: '100px'}} />
-              <img src="https://cdn.mentorcruise.com/img/home/shapes/orange_triangle.svg" className="absolute" style={{top: '200px', left: '225px', height: '50px'}} />
-              <img src="https://cdn.mentorcruise.com/img/home/shapes/orange_triangle.svg" className="absolute" style={{top: '1300px', right: '200px', height: '100px'}} />
+              <img src="http://bit.ly/424zSZx" className="absolute" style={{top: '125px', right: '225px', height: '100px'}} />
+              <img src="http://bit.ly/3u4pKDl" className="absolute" style={{top: '200px', left: '225px', height: '50px'}} />
+              <img src="http://bit.ly/3u4pKDl" className="absolute" style={{top: '1300px', right: '200px', height: '100px'}} />
             </div>
             <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24 bg-white">
               <div className="space-y-12">
@@ -26,7 +26,7 @@ const LearnNewSkill = () => {
                       <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
                         <div className="text-lg leading-6 space-y-1">
                           <div className="flex items-center space-x-4 py-4">
-                            <img src="https://cdn.mentorcruise.com/img/home/icons/chat-bubble.svg" alt="Chat Bubble" />
+                            <img src="http://bit.ly/3O7CUqi" alt="Chat Bubble" />
                             <span className="font-bold text-base">CHAT</span>
                           </div>
                           <div className="flex">
@@ -59,7 +59,7 @@ const LearnNewSkill = () => {
                     <picture className="max-w-screen-lg">
                       <source srcSet="https://cdn.mentorcruise.com/img/home/screenshots/chat-screen_2x.webp 2x" type="image/webp" />
                       <source srcSet="https://cdn.mentorcruise.com/img/home/screenshots/chat-screen_2x.png 2x" type="image/png" />
-                      <source srcSet="https://cdn.mentorcruise.com/img/home/screenshots/chat-screen_1x.webp" className="image-enhancer" type="image/webp" />
+                      <source srcSet="http://bit.ly/3Smv8ex" className="image-enhancer" type="image/webp" />
                       <img src="https://cdn.mentorcruise.com/img/home/screenshots/chat-screen_2x.png" alt="Our Chat" className="image-enhancer" />
                     </picture>
                   </li>
